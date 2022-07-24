@@ -1378,7 +1378,6 @@
     )
   )
 
-
   (junction (at 53.34 26.67) (diameter 0) (color 0 0 0 0)
     (uuid 01fa95e4-f3ed-4dea-a11f-fa3c95cfd9d0)
   )
@@ -1457,7 +1456,6 @@
 
   (no_connect (at 71.12 129.54) (uuid 096a7018-353a-419f-a197-6ba7e95830b9))
   (no_connect (at 71.12 139.7) (uuid 0eff6600-c0fa-460b-9cc2-7d1b3c6d0a60))
-  (no_connect (at 71.12 76.2) (uuid 22fe839a-62be-4bb1-88ea-79a0f0bc08e9))
   (no_connect (at 71.12 132.08) (uuid 2b994993-11ae-4481-8c8e-50d4896075be))
   (no_connect (at 262.89 48.26) (uuid 3c8d8364-1ebd-4e32-82d0-ab2aeea6913c))
   (no_connect (at 30.48 104.14) (uuid 4810c5b2-6546-477e-8048-2a447ad5c9f5))
@@ -2233,6 +2231,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid e618f217-6421-4a84-9008-2beb1a55a6b1)
   )
+  (wire (pts (xy 71.12 76.2) (xy 73.66 76.2))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid e689a686-4831-4bea-9428-3ed250c008f4)
+  )
   (wire (pts (xy 71.12 60.96) (xy 72.39 60.96))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid e7aefd3e-e91e-4ae5-a780-beefab89b84c)
@@ -2482,17 +2484,17 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "PB2(MOSI)" (shape input) (at 121.92 48.26 0) (fields_autoplaced)
+  (global_label "MOSI" (shape input) (at 121.92 48.26 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 3866da05-bbbe-4606-a070-d3841dca59b4)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 134.3721 48.1806 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 128.9293 48.1806 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "PB3(MISO)" (shape input) (at 106.68 45.72 180) (fields_autoplaced)
+  (global_label "MISO" (shape input) (at 106.68 45.72 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 393f9f69-f5f3-4c72-84fe-70c2b3bf7c49)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 94.2279 45.7994 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 99.6707 45.6406 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -2601,10 +2603,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "PB1(SCK)" (shape input) (at 106.68 48.26 180) (fields_autoplaced)
+  (global_label "SCK" (shape input) (at 106.68 48.26 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 6645415c-654e-4474-b18d-e48b4aa9de43)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 95.0745 48.3394 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 100.5174 48.1806 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -2760,6 +2762,13 @@
     (uuid 90ccd86f-9d7d-46b3-8a7b-9e77da1507eb)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 98.5217 50.7206 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "PB7" (shape input) (at 73.66 76.2 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 910506ff-29ce-4915-98ff-5a75a95e273e)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 79.8226 76.1206 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
   (global_label "GND" (shape input) (at 224.79 53.34 0) (fields_autoplaced)
@@ -3428,7 +3437,7 @@
     (uuid 88c272e3-7b52-4676-9687-514e2ed58139)
     (property "Reference" "J1" (id 0) (at 114.3 39.37 0))
     (property "Value" "6P IDC CONNECTOR" (id 1) (at 114.3 41.91 0))
-    (property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x03_P1.00mm_Vertical" (id 2) (at 113.03 48.26 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" (id 2) (at 113.03 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 113.03 48.26 0)
@@ -3538,7 +3547,7 @@
     (uuid b4aa4a0b-de28-4387-a0ea-9b131fef418f)
     (property "Reference" "C12" (id 0) (at 201.93 39.37 90))
     (property "Value" "22uF 25V SMD" (id 1) (at 201.93 41.91 90))
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 201.93 44.45 0)
+    (property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7" (id 2) (at 201.93 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 201.93 44.45 0)
@@ -3697,7 +3706,7 @@
     (property "Value" "Conn_01x02" (id 1) (at 148.59 72.3899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_2-G-5,08_1x02_P5.08mm_Vertical" (id 2) (at 146.05 69.85 0)
+    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" (id 2) (at 146.05 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 146.05 69.85 0)
@@ -3843,7 +3852,7 @@
       (reference "C11") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/b4aa4a0b-de28-4387-a0ea-9b131fef418f"
-      (reference "C12") (unit 1) (value "22uF 25V SMD") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C12") (unit 1) (value "22uF 25V SMD") (footprint "Capacitor_SMD:CP_Elec_6.3x7.7")
     )
     (path "/a38a02bc-82b4-4ed0-acec-d0a59f3ca71c/93cf6b4e-cd7b-4f85-9cca-dec9452ee825"
       (reference "C13") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -3855,19 +3864,16 @@
       (reference "C15") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/a38a02bc-82b4-4ed0-acec-d0a59f3ca71c/34093c9c-d95f-447c-8a26-5c4272f75992"
-      (reference "C16") (unit 1) (value "100uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C16") (unit 1) (value "100uF") (footprint "Capacitor_SMD:CP_Elec_6.3x7.7")
     )
     (path "/a38a02bc-82b4-4ed0-acec-d0a59f3ca71c/12c3d759-8e3b-4487-82bf-62315962caf7"
-      (reference "C17") (unit 1) (value "100uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C17") (unit 1) (value "100uF") (footprint "Capacitor_SMD:CP_Elec_6.3x7.7")
     )
     (path "/a38a02bc-82b4-4ed0-acec-d0a59f3ca71c/98de819c-394a-41f8-8f5d-1f9dfc4db40e"
-      (reference "C18") (unit 1) (value "100uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C18") (unit 1) (value "100uF") (footprint "Capacitor_SMD:CP_Elec_6.3x7.7")
     )
     (path "/a38a02bc-82b4-4ed0-acec-d0a59f3ca71c/c4a9c044-9cc2-4f80-a0d8-f23fa8ca900c"
-      (reference "C19") (unit 1) (value "100uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/a38a02bc-82b4-4ed0-acec-d0a59f3ca71c/3d1bfd9a-7401-4993-9181-54015b650bc4"
-      (reference "C20") (unit 1) (value "100uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C19") (unit 1) (value "100uF") (footprint "Capacitor_SMD:CP_Elec_6.3x7.7")
     )
     (path "/17afffa6-f020-49f2-b803-5d65f9891e60"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric")
@@ -3894,7 +3900,7 @@
       (reference "D8") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric")
     )
     (path "/88c272e3-7b52-4676-9687-514e2ed58139"
-      (reference "J1") (unit 1) (value "6P IDC CONNECTOR") (footprint "Connector_PinHeader_1.00mm:PinHeader_2x03_P1.00mm_Vertical")
+      (reference "J1") (unit 1) (value "6P IDC CONNECTOR") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
     )
     (path "/17f9818c-2665-471f-8cd4-f852a2eb8fe2"
       (reference "J2") (unit 1) (value "USB_B") (footprint "Connector_USB:USB_B_Lumberg_2411_02_Horizontal")
@@ -3912,13 +3918,7 @@
       (reference "J6") (unit 1) (value "Z-") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/a38a02bc-82b4-4ed0-acec-d0a59f3ca71c/f8ff46ec-1e7a-47fa-8ba7-e09a1b20eb85"
-      (reference "J7") (unit 1) (value "Heaters & Fans") (footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_6-G-5,08_1x06_P5.08mm_Vertical")
-    )
-    (path "/a38a02bc-82b4-4ed0-acec-d0a59f3ca71c/a5abc946-342c-4223-b8cb-ce56a6c42925"
-      (reference "J8") (unit 1) (value "XM") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
-    )
-    (path "/a38a02bc-82b4-4ed0-acec-d0a59f3ca71c/2cbc97f2-47e2-4587-828d-a18ae6121e21"
-      (reference "J9") (unit 1) (value "EM") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
+      (reference "J7") (unit 1) (value "Heaters & Fans") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-6-5.08_1x06_P5.08mm_Horizontal")
     )
     (path "/a38a02bc-82b4-4ed0-acec-d0a59f3ca71c/e9a3d620-6a6a-41df-b1b6-e72b93648522"
       (reference "J10") (unit 1) (value "X") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
@@ -3926,14 +3926,8 @@
     (path "/a38a02bc-82b4-4ed0-acec-d0a59f3ca71c/fd4acf2c-e85c-4100-81e6-c597322ef529"
       (reference "J11") (unit 1) (value "E") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
-    (path "/a38a02bc-82b4-4ed0-acec-d0a59f3ca71c/11e2e07e-ca5d-4d79-90ac-f31339cca118"
-      (reference "J12") (unit 1) (value "YM") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
-    )
     (path "/a38a02bc-82b4-4ed0-acec-d0a59f3ca71c/9c5704f6-16fc-400b-9be9-7c5853185a6a"
       (reference "J13") (unit 1) (value "Y") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
-    )
-    (path "/a38a02bc-82b4-4ed0-acec-d0a59f3ca71c/0f808b0c-2b8e-4b4a-b98f-bc65d5fa605e"
-      (reference "J14") (unit 1) (value "ZM") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
     )
     (path "/a38a02bc-82b4-4ed0-acec-d0a59f3ca71c/0dd43b7c-8085-4d55-95f5-124c4518a304"
       (reference "J15") (unit 1) (value "Z") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
@@ -3942,16 +3936,16 @@
       (reference "J16") (unit 1) (value "Z") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/e30b9aeb-cf7e-4b8f-8d7c-3c1c6f726652"
-      (reference "J17") (unit 1) (value "Conn_01x02") (footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_2-G-5,08_1x02_P5.08mm_Vertical")
+      (reference "J17") (unit 1) (value "Conn_01x02") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal")
     )
     (path "/a38a02bc-82b4-4ed0-acec-d0a59f3ca71c/bd7afe7a-2382-4343-94f7-d3aeeeecee05"
-      (reference "Q1") (unit 1) (value "Mos") (footprint "")
+      (reference "Q1") (unit 1) (value "Mos") (footprint "Package_TO_SOT_SMD:TO-263-2")
     )
     (path "/a38a02bc-82b4-4ed0-acec-d0a59f3ca71c/86f579e5-b73e-454c-87c2-c84505a82bfe"
-      (reference "Q2") (unit 1) (value "Mos") (footprint "")
+      (reference "Q2") (unit 1) (value "Mos") (footprint "Package_TO_SOT_SMD:TO-263-2")
     )
     (path "/a38a02bc-82b4-4ed0-acec-d0a59f3ca71c/91e0766e-424c-4f56-9f8b-5f877424606a"
-      (reference "Q3") (unit 1) (value "Mos") (footprint "")
+      (reference "Q3") (unit 1) (value "Mos") (footprint "Package_TO_SOT_SMD:TO-263-2")
     )
     (path "/25909e86-1c5a-46f0-b549-a5bd102a2396"
       (reference "R1") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0805_2012Metric")
