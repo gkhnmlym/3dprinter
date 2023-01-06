@@ -540,10 +540,10 @@
       (net 45 "E_STEP") (pinfunction "STEP") (pintype "input") (tstamp a35f8481-1019-496e-9f1f-8610940d9e9a))
     (pad "16" thru_hole oval (at 12.7 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 46 "E_DIR") (pinfunction "DIR") (pintype "input") (tstamp 7955f5f9-670d-4cec-a773-022a3c1ad4cd))
-    (model "${KICAD6_3DMODEL_DIR}/Module.3dshapes/Pololu_Breakout-16_15.2x20.3mm.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KICAD6_3DMODEL_DIR}/Module.3dshapes/Driver DRV8825.stp"
+      (offset (xyz 6.5 -9 7.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -17006,10 +17006,10 @@
       (net 34 "Z_STEP") (pinfunction "STEP") (pintype "input") (tstamp f39b8e3b-cc0e-452a-b069-9bd96d59ff59))
     (pad "16" thru_hole oval (at 12.7 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 36 "Z_DIR") (pinfunction "DIR") (pintype "input") (tstamp 7e99abe1-8151-4c2a-a8de-56043c35f562))
-    (model "${KICAD6_3DMODEL_DIR}/Module.3dshapes/Pololu_Breakout-16_15.2x20.3mm.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KICAD6_3DMODEL_DIR}/Module.3dshapes/Driver DRV8825.stp"
+      (offset (xyz 6.5 -9 7.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -21144,10 +21144,10 @@
       (net 13 "X_STEP") (pinfunction "STEP") (pintype "input") (tstamp 62c5af8d-7ffb-47bf-af85-015c16d35d06))
     (pad "16" thru_hole oval (at 12.7 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 14 "X_DIR") (pinfunction "DIR") (pintype "input") (tstamp e2f98ae9-d904-469c-8b15-09e42785d5d4))
-    (model "${KICAD6_3DMODEL_DIR}/Module.3dshapes/Pololu_Breakout-16_15.2x20.3mm.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KICAD6_3DMODEL_DIR}/Module.3dshapes/Driver DRV8825.stp"
+      (offset (xyz 6.5 -9 7.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -21542,10 +21542,10 @@
       (net 24 "Y_STEP") (pinfunction "STEP") (pintype "input") (tstamp ec71c384-d2b3-4f18-8684-e03006acd45d))
     (pad "16" thru_hole oval (at 12.7 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 25 "Y_DIR") (pinfunction "DIR") (pintype "input") (tstamp ad329202-fc29-4a5f-a52d-cdd1a3891117))
-    (model "${KICAD6_3DMODEL_DIR}/Module.3dshapes/Pololu_Breakout-16_15.2x20.3mm.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KICAD6_3DMODEL_DIR}/Module.3dshapes/Driver DRV8825.stp"
+      (offset (xyz 6.5 -9 7.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
